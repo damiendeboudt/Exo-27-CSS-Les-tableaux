@@ -1,0 +1,38 @@
+
+
+td{
+    border: 2px solid black;
+    width: 40px;
+    height: 20px;
+}
+th{
+    border: 2px solid black;
+    width: 40px;
+    height: 20px;
+}
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    empty-cells: show;
+    caption-side: top;
+}
+.tableau1 {
+    empty-cells: hide;
+    border-collapse: separate;
+}
+.tableau2{
+    empty-cells: show;
+    border-collapse: separate;
+    caption-side: bottom;
+}
+.tableau3{
+    empty-cells: show;
+    border-collapse: collapse;
+    caption-side: top;
+}
+.tableau4{
+    empty-cells: hide;
+    border-collapse: collapse;
+    caption-side: bottom;
+
+}
